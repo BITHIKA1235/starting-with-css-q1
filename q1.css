@@ -1,0 +1,14 @@
+/* External CSS starts here */
+.external {
+    color: black;
+    background-color: yellow;
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid orange;
+}
+
+.conflict {
+    color: white; /* This color will override the internal CSS color */
+    background-color: purple; /* This color will override the internal CSS background color */
+}
+/* External CSS ends here */
